@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+.connecting{
+  height: calc(40vh - 75px);
+  width: calc(65vw);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  color: #ffc200;
+
+}
+
+
+@media screen and (max-width: 860px) {
+
+  .connecting{
+      height : 80px;
+      width: 100%;
+      font-size: 2rem;
+  }
+}

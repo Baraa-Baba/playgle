@@ -1,0 +1,272 @@
+@import "../../variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+.headerWrapper {
+  max-width: calc(60rem + 1rem * 2); 
+  height: 70px;
+} 
+.profileImage{ 
+}
+.profileCircleImage{
+
+}
+.profileImage{
+  margin:0 !important;
+  transform:scale(1.5);
+  margin-top:8px;
+  position: absolute !important;
+  top: 6px;
+  left: 13px;
+}
+.profileImageAccount{
+  left:0 !important;
+  padding-right: 3.5rem;
+}
+.onlineIcon {
+  color: #094166;
+  font-size: 1.8rem;
+  margin-bottom: -2px;
+}
+.headerContainer {
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  display: flex;
+  position: relative;
+  z-index: 99;
+  background-color: transparent;
+}
+
+.headerLogo {
+  align-items: center;
+  font-size: 2rem;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row; 
+} 
+.logoText {
+  font-family: 'IM Fell Great Primer', serif;
+  text-transform: uppercase;
+    margin-left: 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: hsl(120, 100%, 40%); 
+  padding:1rem
+}
+
+.theonlineText{
+  display:inline-block
+}
+@media screen and (max-width:500px) {
+  .theonlineText{ 
+    display:none
+  }
+}
+.onlineIcon {
+  color: #094166;
+  font-size: 1.8rem;
+  margin-bottom: -2px;
+}
+.logoText:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -0.2075em;
+}
+
+.logoText:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -0.2075em;
+}
+.signUp{
+  /* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 1rem;
+border:0;
+gap: 12px;
+z-index:1;
+position: absolute; 
+right: 0;
+top: 0px; 
+cursor:pointer;
+background:   hsl(120, 100%, 40%); 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(136, 144, 194, 0.2), 0px 5px 15px rgba(37, 44, 97, 0.15);
+border-radius: 999px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+margin:0.7rem 0.4rem;
+/* identical to box height, or 20px */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.logIn{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 1rem;
+color: #094166;
+padding-bottom:0.5rem;
+position: absolute;
+right:0; 
+top:0.9rem
+
+}
+.logInCont{
+  cursor:pointer;
+  margin-right: 1rem;
+  position: absolute; 
+  right: 120px;
+  top: 0px;
+  padding:0.2rem;
+}
+.logInSubCont{
+  width:5.75rem;
+  position:relative;
+}
+.logInSubCont img{  
+  margin-right:0.3rem;
+  position: absolute; 
+  padding-top:0.5rem
+}
+.dropShadow {  
+}
+.myAccountlogInSubCont{
+  width:8rem
+}
+.myAccountImg{
+  left:unset !important;
+  right: 6.6rem !important
+}
+.mobileOnly{
+  display:none
+}
+@media only screen and (max-width: 860px) {
+  .myAccountextt{}
+.logInCont{
+  display:none;
+}
+.mobileOnly{
+  display:block
+}
+.sigininpop{
+  position:absolute;
+  cursor:pointer;
+  top:10px;
+  z-index:1000000000;
+  right:1rem;
+  background:none;
+  border:none;
+}
+.navgation{ 
+  z-index:10000;
+  width:100vw;
+  position:absolute;
+  top:0
+}
+.signUp{
+  display:none;
+}
+
+  .onlineText {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: #26cc17;
+  }
+
+  .logoText {
+    font-size: 2rem;
+
+
+  }
+.navgation{
+  background:white;
+}
+  .headerContainer {
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    position: relative;
+    z-index: 99;
+    background-color: transparent;
+  }
+
+  .onlineIcon { 
+    font-size: 1rem;
+  }
+
+  .logoImg {
+    flex-shrink: 0;
+    height: 1.1em;
+  }
+
+  .headerLogo {
+    padding-left: 0px;
+  }
+  .logoText{
+    font-size:1.2rem
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .logoText {
+    font-size: 1rem;
+  }
+
+  .onlineText {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 68px) {
+  .onlineText {
+    display: none;
+  }
+
+  .logoImg {
+    flex-shrink: 0;
+    height: 1.1em;
+  }
+
+  .headerLogo {
+    margin-left: 25px;
+  }
+
+  .dropShadow {
+    display: none;
+  }
+
+  .headerWrapper {
+
+    height: 30px;
+  }
+
+  .headerContainer {
+    height: 30px;
+  }
+}

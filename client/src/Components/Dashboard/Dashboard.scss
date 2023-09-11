@@ -1,0 +1,372 @@
+.dashboardCont{
+    max-width: 1100px !important;
+    width:1100px;
+    background-color: white;
+    display: flex; 
+    flex-direction: column;
+    margin: 0 1rem 0 1rem ;
+    position: relative;
+    overflow: hidden auto;
+} 
+
+.messegingContainer { 
+  }
+  
+  .message-box { 
+    display:flex;
+    flex-direction: row;
+    padding: 10px; 
+  }
+  
+  #message-input {
+    padding: 10px;
+    font-size:24px;
+    width: 100%;
+  }
+  
+  #send-button {
+    background-color: #4CB1F6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #send-button:hover {
+    background-color: #3CB1F6;
+  }
+.friendsChatList{
+    margin-top: 8px;
+    overflow-y: auto;
+}
+.inputMessageingFriends{
+    font-size: 2rem;
+    
+    width:100%;
+} 
+.inputMessageingFriends input{
+    max-width: 100%;
+}
+.inputMessageingFriends button{
+    font-size: 2rem;
+}
+.currentFriend{
+    color:black !important;
+    display:flex;
+    flex-direction: row;
+    font-size:20px;
+    margin-top: 8px;
+    padding:10px 1rem 10px 1rem;
+    box-shadow:0px 4px 4px 2px rgba(0, 0, 0, 0.3)
+}
+.friendContMesseages{
+    background-color: #F7F9FB; 
+    border-radius: 0;
+    padding: 16px;
+    display: flex; 
+    align-items: center;
+} 
+.friendDataImage{
+    height:70px;
+    margin-right: 1rem;
+    width:70px;
+}
+.friendNameMesseages{
+    font-size:20px;
+    font-weight: 500;
+}
+.friendDataImage > img{ 
+    border:2px transparent;
+    border-radius:50%;
+
+}
+.friendsChatList{
+    display:flex;
+    flex-direction: column;
+}
+.friendNameMesseageNavMobileCont{   
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.currentFriendMobile{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 3.5rem; 
+}
+.navDashboardCont{
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid rgb(150,150,150);
+}
+.navDashboardCont >button{
+    padding:1.5rem; 
+    border: none;
+    background: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.navDashboardCont >button:hover{ 
+}
+.ChatRoomsCont{
+    width: 100%;
+}
+.ChatRoomsCont{
+    min-height: 60%;
+}
+.frndsCont{
+    color:black;
+    margin-bottom: 1rem;
+}
+.frndsCont p{
+    margin-top:10px;
+    margin-bottom:10px
+ }
+.removeFriendButton{
+    all:unset;
+    color:black;
+    font-weight:500;
+    transition: 0.3s all ease;
+    margin-left: auto;
+    font-size:1.5rem;
+    cursor:pointer;
+    margin-right:10px
+}
+.removeFriendButton:hover{
+    color:red;
+}
+.chatBox{
+    height: calc(100vh - 300px);
+}
+.friendCont{
+    display:flex; 
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    flex-direction: row;
+}
+.Section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+}
+.closeIconSign svg{
+    color: black
+}
+.closeIconSign svg:hover{
+    color: red
+}
+.dashboard{
+    color: #4CB1F6;
+}
+.labelDashboardInput{
+    color:black;
+    margin-top: 0.4rem;
+    display: block;
+}
+// make the google translate navbar appear on top of the dashboard
+.VIpgJd-ZVi9od-ORHb-OEVmcd{
+    z-index: 100000000000000000000 !important;
+}
+.chatFiltersContDashBoard{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.saveChanges,.logOut{ 
+        display: inline-block;
+        border: none;
+        padding: 10px 20px;
+        background-color: #4CB1F6;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        width:30%;
+        transition: background-color 0.3s ease; 
+}
+.saveChanges:hover{
+    background-color: #1E90FF;
+}
+.logOut { 
+  
+    background-color: #FF0000;  
+  }
+  
+  .logOut:hover {
+    background-color: #FF3333
+  }
+  .startbuttonsCont{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+.dashBoardInput{ 
+    max-width: 100% !important;
+    height: 46px;
+    width: 100%;
+    font-size: 18px !important; 
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 20px;
+}
+.goog-te-gadget .goog-te-combo {
+    margin-right: auto !important;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd{
+    display:none !important
+}
+.flexRowWebColumnMobile{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+.ChatRoomsCont{
+    width:100%;
+
+}
+.friendsChatList{
+    width: 300px;
+}
+.MesseagingMainCont{
+    width: calc(100% - 200px);
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.noFriendsCont{
+    height:80vh;
+    color:black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-inline: 2rem;
+}
+.profileImageCont{
+    width:125px;
+    margin-right: 2rem;
+    height:125px;
+}
+.profileImageCont img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+@media screen and (max-width: 860px) {
+    .dashboardCont{
+        position: absolute;
+        left: 0;
+    }
+    .chatBox{ 
+    height: calc(100vh - 200px); 
+    overflow:auto;
+    padding-top: 6rem !important;
+
+    }
+    .friendContMesseages{ 
+    }
+    .dashboardCont{
+        min-height: 100vh;
+        background-color: white;
+    }
+    .friendsChatList{ 
+    }
+    .returnMesseagesButton{
+        display:inline-block;
+        scale:0.8;
+        margin-top: 0;
+        margin-bottom:0; 
+        position: absolute;
+        cursor: pointer;
+    } 
+    .paddingMesseagingMobileNav{
+        padding-block: 0.5rem;
+    }
+    .MesseagingMainCont{
+        width:100%
+    } 
+    .friendsChatList{
+        width: 100%;
+    }
+    .friendNameMesseageNavMobile{
+        font-size:18px;
+        color:black;
+    }
+    #MesseagingMobileNav{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        background: white;
+        width: 100%;
+
+    }
+    .messegingContainer{
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+        background: white;
+        width: 100%;
+    }
+    .ChatRoomsCont{
+        position: fixed;
+        top:0;
+    }
+    .dashboardCont{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        width: 100%;
+    }
+    .centerFlex{
+        height: 100vh; 
+    }
+    .chatBox{
+        padding-bottom: 0;
+    }
+    .ChatRoomsCont{
+        height: 100vh;
+    }
+    .flexRowWebColumnMobile{
+        display:flex;
+        flex-direction: column;
+    }
+    .friendCont{
+        width:80%
+    }
+    .dashboardCont{ 
+        margin: 0; 
+    }
+    .Section{   
+        width: 100%;
+        margin: 0 1rem 0 1rem;
+
+    }
+    .startbuttonsCont{
+        flex-direction: column;
+        width: unset;
+    }
+    .startbuttonsCont button{
+        margin-bottom: 1rem;
+        width: fit-content;
+    }
+    .dashBoardInput{
+        width: 80%;
+    }
+}

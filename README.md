@@ -1,7 +1,43 @@
-# RunCode
+<div align="center">
+<b>Smishy</b> - video chat with random people, like </b>Omegle</b> or </b>Chatroulette</b>
 
-This is base repository for RunCode workspace.
+This project is using <b>WebRTC, WebSockets, React, Node.js, SCSS, YARN</b>
 
-You can clone any git repositories or use your own by selecting one at the time of creating workspace.
+🧪 </b>Smishy is deployed at</b>: https://smishy.herokuapp.com
+</div>
 
-[![](https://runcode-app-public.s3.amazonaws.com/images/dark_btn.png)](https://runcode.io)
+⭐ <b>Feature list</b>
+1. Video
+2. Audio
+3. Chat
+4. Screen sharing
+5. Full screen mode
+6. Mobile version
+7. Online counter
+8. Mute audio/video
+
+🐞 <b>Known problems/bugs</b> (feel free to fix them, these are small bugs)
+1. Ending call when screen is being shared
+2. Video muting when screen is being shared
+
+🔮 <b>Future</b> 
+1. Photo sharing
+
+<b>Local deployment</b> :
+1. Go to server directory and install dependencies using command
+```bash
+yarn
+```
+2. Run server
+```bash
+yarn start
+```
+3. Open second console, go to client directory and install dependencies using command
+```bash
+yarn
+```
+4. Run client
+```bash
+yarn start
+```
+5. Open project at localhost

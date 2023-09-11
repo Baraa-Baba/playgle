@@ -1,0 +1,20 @@
+.chatBox {
+  height: calc(100vh - 250px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+@media screen and (max-width: 860px) {
+  .chatBox {
+    height: calc(100vh - 140px);
+    width: calc(100vw - 2rem);
+    top: 0;
+    overflow: auto;
+    z-index: 10;
+    position: absolute;
+    padding: 54px 1rem 20px 1rem !important;
+    background-color: #ffffff;
+  }
+} 

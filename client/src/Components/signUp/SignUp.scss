@@ -1,0 +1,169 @@
+
+.centerFlex{
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    left: 0;
+    justify-content: center; 
+    position: fixed;
+    top: 0;
+    z-index: 1000000000; 
+}
+.signCont{
+    background: white;
+    width: 520px;
+    border-radius: 4px;
+    position: relative;
+    max-width: 100%;
+}
+.closeIconSign{
+    top:-30px;
+    right:00px;
+    cursor: pointer;
+    position: absolute;
+}
+.closeIconSign svg{
+    color:white;
+    font-size:20px;
+    transition:color 0.3s ease;
+}
+.closeIconSign:hover svg{
+    color:red
+}
+.subSignCont{
+    padding: 25px 40px 0 40px;
+    margin-inline:4px
+}
+.signInTitle{
+    font-size:24px;
+}
+.returnPhone{
+    position: absolute;
+    top:1rem;
+    left:1rem;
+    color:gray;
+    cursor:pointer
+}
+.returnPhone:hover{
+    color:#444;
+}
+.PhoneInputCountry{ 
+    margin-right: 0.3rem;
+    margin-bottom: 11px; 
+}
+.center{
+    display:inline-flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 80px);
+}
+.PhoneIconCont{
+    background-color: white;
+    margin-right:1rem; 
+    display: inline-flex;
+    border:1px solid #444;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width:48px
+} 
+.PhoneIconCont svg{
+    color:black;
+    rotate:83deg
+}
+.signInput,.PhoneInputInput {
+    width: 100%;
+    height:46px;
+    font-size:18px !important;
+    border:1px solid gray;
+    outline: none;
+    margin-bottom: 20px;
+} 
+.signInput:focus,.PhoneInputInput:focus{ 
+    border:1px solid #1ca5fc; 
+}
+.GoogleButton{
+    width: 100% !important;
+    background-color: RGB(67, 96, 136)!important; 
+    color:#B2CCFF  !important;
+
+}
+.PhoneInput{
+    font-size: 24px;
+    height:46px;
+}
+.signInbutton{
+    font-size:18px;
+    color:white;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    height:46px;
+    width: 100%;
+    background-color: #1ca5fc;
+}
+.blackOverlay{
+    background-color: #000;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1000000000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.phoneNumberButton{
+    background-color: #111;
+    margin-top: 20px;
+}
+.phoneNumberButton:hover{
+    background-color: #000 !important; 
+}
+#spinner{
+    border: 2px dashed white; 
+    display:inline-block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.signInbutton:hover{
+    background-color: #1e88e5 ;
+}
+.flexRow{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.switchSign{
+    display: inline-block;
+    height:46px;
+    background-color: transparent;
+    color:#1ca5fc;
+    border:1px solid  #1ca5fc;
+    cursor: pointer;
+    padding:0 16px
+}
+.switchSign:hover{ 
+    color:#1987cd;
+    border:1px solid  #1987cd;
+}
+.signInTitle{
+    display: inline-block;
+}
+@media (max-width:860px){
+    .centerFlex{
+        max-width:100vw;
+        width:100vw;
+
+    }
+}

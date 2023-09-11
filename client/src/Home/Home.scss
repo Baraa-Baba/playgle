@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+
+.maincontent {
+  margin: 0 auto;
+  background-color: antiquewhite;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  padding-left: 10px;
+  padding-right: 5px;
+  line-height: 25px;
+  color: black;
+}
+
+.seccontent {
+  margin: 0 auto;
+  background-color: antiquewhite;
+  color: black;
+ 
+  max-width: 800px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  padding-left: 10px;
+  padding-right: 5px ;
+  line-height: 25px;
+}
+.button3 {
+  display: inline-block;
+  padding: 1em 3em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+  border-color:#474559;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 300;
+  background-color: #474559;
+  color: #fff;
+  text-align: center;
+  transition: all 0.2s;
+ 
+}
+.button3:hover {
+  background-color: #ffc200;
+  cursor: pointer;
+}
+@media all and (max-width: 30em) {
+  .button3 {
+    /* display:block; */
+    margin: 0.2em auto;
+  }
+}

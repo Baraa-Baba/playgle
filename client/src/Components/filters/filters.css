@@ -1,0 +1,43 @@
+#videothree{
+  height:400px;
+  width:500px;
+  display:none
+}
+#threeCanvas{ 
+  position: absolute;
+  z-index: 100;   
+  display:none;
+  transform:rotateY(180deg);
+  background:transparent;
+}
+#invertedThreeCanvas{
+ position:absolute;
+ right:0
+}
+#myCanvas{ 
+  display:none;
+}
+#partnerCanvas{
+  display:none;
+}
+#partnerThreeCanvas{
+  position: absolute;
+  z-index: 100;
+  background:transparent;
+  display:none
+}
+#tmpVideoOfUser{ 
+  display:none;
+}
+#jeeFaceFilterCanvas{   
+   display:none;
+  position:absolute; 
+  right:0
+}
+@media (max-width: 787px) {
+  #jeeFaceFilterCanvas {
+    right: 0px;
+    top: 60px;
+    transform: rotateY(180deg);
+  }
+}

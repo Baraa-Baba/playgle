@@ -1,0 +1,11 @@
+Model Information:
+* title:	Medical/Surgical Mask
+* source:	https://sketchfab.com/3d-models/medicalsurgical-mask-f54ed08e35ba40d4a67fb0fce1cbf27e
+* author:	bright_moon (https://sketchfab.com/bright_moon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Medical/Surgical Mask" (https://sketchfab.com/3d-models/medicalsurgical-mask-f54ed08e35ba40d4a67fb0fce1cbf27e) by bright_moon (https://sketchfab.com/bright_moon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
